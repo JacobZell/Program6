@@ -33,7 +33,7 @@ namespace Program6Final
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            Response.Redirect("addUser.aspx");
+            Response.Redirect("AddUser.aspx");
         }
     }
 }

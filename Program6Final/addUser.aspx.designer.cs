@@ -11,7 +11,7 @@ namespace Program6Final
 {
 
 
-    public partial class WebForm2
+    public partial class AddUser
     {
 
         /// <summary>

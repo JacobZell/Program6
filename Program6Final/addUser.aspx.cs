@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace Program6Final
 {
-    public partial class WebForm2 : System.Web.UI.Page
+    public partial class AddUser : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -16,7 +16,7 @@ namespace Program6Final
 
         protected void CreateUserWizard1_CreatedUser(object sender, EventArgs e)
         {
-            Response.Redirect("login.aspx");
+            Response.Redirect("Login.aspx");
         }
     }
 }

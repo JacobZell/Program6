@@ -73,7 +73,7 @@
     </Content>
     <Content Include="Web.config" />
     <Content Include="Login.aspx" />
-    <Content Include="addUser.aspx" />
+    <Content Include="AddUser.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -84,12 +84,12 @@
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
-    <Compile Include="addUser.aspx.cs">
-      <DependentUpon>addUser.aspx</DependentUpon>
+    <Compile Include="AddUser.aspx.cs">
+      <DependentUpon>AddUser.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="addUser.aspx.designer.cs">
-      <DependentUpon>addUser.aspx</DependentUpon>
+    <Compile Include="AddUser.aspx.designer.cs">
+      <DependentUpon>AddUser.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
