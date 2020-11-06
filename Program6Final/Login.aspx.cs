@@ -35,5 +35,10 @@ namespace Program6Final
         {
             Response.Redirect("AddUser.aspx");
         }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("ChangePassword.aspx");
+        }
     }
 }

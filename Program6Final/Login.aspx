@@ -16,6 +16,7 @@
             <br />
             <br />
             <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" style="text-align: center" Text="Create User" />
+            <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Change Password" />
         </div>
     </form>
 </body>
